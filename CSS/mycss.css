@@ -39,6 +39,24 @@ article{
     display: none;
 }
 
+#sect{
+    background-color: #F2F5EA;
+    border-radius: 8px;
+}
+
+#sect img{
+    margin: 2%;
+    border-radius: 8px;
+}
+
+video{
+    margin: 2%;
+}
+
+#carouseltik{
+    width: 100px;
+}
+
 @media screen and (max-width: 860px){
     section{
         flex-direction: column;
