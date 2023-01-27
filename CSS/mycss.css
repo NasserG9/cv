@@ -1,0 +1,50 @@
+/*nav bar costumization*/
+.navbar{
+    background-color: #BBC7A4 !important;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+
+/*body costumization*/
+body{
+    background-color: #32373B;
+    
+
+}
+/*section costumization*/
+section{
+    margin: 2%;
+}
+
+article{
+    background-color: #F2F5EA;
+    width: 100rem;
+    margin: 0% 2%;
+    border-radius: 8px;
+}
+
+/*personal info costumization*/
+.card-body{
+    background-color: #BBC7A4;
+}
+
+.small-devices{
+    background-color: #F2F5EA;
+    display: none;
+}
+
+@media screen and (max-width: 860px){
+    section{
+        flex-direction: column;
+    }
+    section article{
+        width: auto;
+        margin: 2% 0%;
+    }
+}
